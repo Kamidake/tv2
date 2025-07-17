@@ -3,7 +3,7 @@ const path = require('path');
 
 const baseConfig = {
     port: process.env.PORT || 10000,
-    M3U_URL: 'https://raw.githubusercontent.com/mccoy88f/OMG-TV-Stremio-Addon/refs/heads/main/link.playlist',
+    M3U_URL: 'https://m3u.work/BddU02GX.m3u',
     EPG_URL: 'https://raw.githubusercontent.com/mccoy88f/OMG-TV-Stremio-Addon/refs/heads/main/link.epg',
     enableEPG: true,
     PROXY_URL: process.env.PROXY_URL || null,
