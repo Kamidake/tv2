@@ -16,9 +16,7 @@ class HlsProxyManager {
             const networkHeaders = {
                 ...headers,
                 'User-Agent': headers['User-Agent'] || [
-                    'Mozilla/5.0 (Windows NT 10.0; Win64; x64)',
-                    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)',
-                    'Mozilla/5.0 (X11; Linux x86_64)'
+                    'exoplayer'
                 ][Math.floor(Math.random() * 3)],
                 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
                 'Accept-Language': 'it-IT,it;q=0.8,en-US;q=0.5,en;q=0.3',
